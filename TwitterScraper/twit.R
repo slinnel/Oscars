@@ -7,10 +7,10 @@ library(RJSONIO)
 library(DBI)
 library(RSQLite)
 
-api_key = "rDoIA1EdBIUY3pvdWrXZVzW2h"
-api_secret = "tkmTyIoBnobnV97vmiy3PcneggxTZBLXyYlIXnOIMPpm9lF3gS"
-token = "539466770-2xav2FB0S8OHGC70W57qTYDQjW21eDVuuCVxRq1J"
-token_secret = "xswg8X66YF5XuzZRf0HAe4V7GakSV1YAZrMSILofkKFi9"
+api_key = "IA1EdBIUY3pvdWrXZVzW2h"
+api_secret = "yIoBnobnV97vmiy3PcneggxTZBLXyYlIXnOIMPpm9lF3gS"
+token = "56770-2xav2FB0S8OHGC70W57qTYDQjW21eDVuuCVxRq1J"
+token_secret = "xX66YF5XuzZRf0HAe4V7GakSV1YAZrMSILofkKFi9"
 db_path = "~/Documents/Senior/second_sem/cpsc482/Oscars/oscar-db.sqlite"
 
 bestPictureCat <- list("Arrival", "Fences", "Hacksaw Ridge", "Hell or High Water",
