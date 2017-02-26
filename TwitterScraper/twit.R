@@ -1,6 +1,6 @@
 rm(list = ls())
 
-#install.packages("RJSONIO") #, "RCurl", "RJSONIO", "stringr")
+#install.packages("RJSONIO", "RCurl", "RJSONIO", "stringr")
 library(twitteR)
 library(RCurl)
 library(RJSONIO)
@@ -21,3 +21,4 @@ for (cat in categories){
   }
   i <- i+1
 }
+dbDisconnect(con)
