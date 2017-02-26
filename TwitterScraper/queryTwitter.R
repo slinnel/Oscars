@@ -1,22 +1,49 @@
 #CONSTANTS
 #########################################
-api_key <- "rDoIA1EdBIUY3pvdWzW2h"
-api_secret <- "tkmTyIoBnobnV97vmiy3PcneggxTYlIXnOIMPpm9lF3gS"
-token <- "539466770-2xav2FB0S8OHGC70W57qW21eDVuuCVxRq1J"
-token_secret <- "xswg8X66YF5XuzZRf0HAe4V7GakSV1YAZrMSFi9"
+api_key <- "rDoIdBIUY3pvdWrXZVzW2h"
+api_secret <- "tkIoBnobnV97vmiy3PcneggxTZBLXyYlIXnOIMPpm9lF3gS"
+token <- "539470-2xav2FB0S8OHGC70W57qTYDQjW21eDVuuCVxRq1J"
+token_secret <- "xswgYF5XuzZRf0HAe4V7GakSV1YAZrMSILofkKFi9"
 
-db_path <- "~/Documents/Senior/second_sem/cpsc482/Oscars/oscar-db3.sqlite"
+db_path <- "~/Documents/Senior/second_sem/cpsc482/Oscars/oscar-db4.sqlite"
 
 bestPictureCat <- list("Arrival", "Fences", "Hacksaw Ridge", "Hell or High Water",
                        "Hidden Figures", "La La Land", "Lion", "Manchester by the Sea",
                        "Moonlight")
+
 directingCat <- list("Denis Villeneuve", "Mel Gibson", "Damien Chazelle", 
                      "Kenneth Lonergan", "Barry Jenkins")
+actorCat <- list("Casey Affleck", "Andrew Garfield", "Ryan Gosling", "Viggo Mortensen",
+                    "Denzel Washington")
+actressCat <- list("Isabelle Huppert", "Ruth Negga", "Natalie Portman", "Emma Stone", "Meryl Streep")
 
-categories <- list(bestPictureCat, directingCat)
-categoriesStr <- list("Best Picture", "Directing")
+#categories <- list(bestPictureCat, directingCat, actorCat, actressCat)
+#categoriesStr <- list("Best Picture", "Directing", "Best Actor", "Best Actress")
+categories <- list(bestPictureCat)
+categoriesStr <- list("Best Picture")
 ##########################################
-
+queryTwitterPic <- function(best.2015){
+  for (each in best.2015){
+    query2015 = paste(each, "Best Picture", sep=" ")
+    tweets2015 <- searchTwitter(query2015, n=1000, since="2014-04-01", until="2015-02-22")
+    if(length(tweets2015) > 0){
+      tweets2015.df <- twListToDF(tweets2015)
+      sumTweets.df <- tweets2015.df
+    }
+    
+    hashQuery2015 = paste(each, " #oscars", sep=" ")
+    hashTweets2015 <- searchTwitter(hashQuery2015, n=1000, since="2014-04-01", until="2015-02-22")
+    if(length(hashTweets2015) > 0){
+      hashTweets2015.df <- twListToDF(hashTweets2015)
+      sumTweets.df <- rbind(sumTweets.df, hashTweets2015.df)
+    }
+    if(length(sumTweets.df) > 0){
+      #sumTweets.df <- merge(andTweets.df, hashTweets.df)
+      #sumTweets.df <- merge(sumTweets.df, oscarTweets.df)
+      dbWriteTable(con, paste(each, "BestPic2015"), sumTweets.df, append= TRUE)
+    }
+  }
+}
 queryTwitter <- function(title, category){
   
   # "TITLE CATEGORY"
@@ -56,8 +83,6 @@ queryTwitter <- function(title, category){
   }
   
   if(length(sumTweets.df) > 0){
-    #sumTweets.df <- merge(andTweets.df, hashTweets.df)
-    #sumTweets.df <- merge(sumTweets.df, oscarTweets.df)
     dbWriteTable(con, paste(title, category), sumTweets.df, append= TRUE)
   }
   
