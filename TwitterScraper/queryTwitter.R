@@ -1,6 +1,6 @@
 #CONSTANTS
 #########################################
-api_key <- "rDoIIUY3pvdWrXZVzW2h"
+api_key <- "rDIIUY3pvdWrXZVzW2h"
 api_secret <- "tkmTyIiy3PcneggxTZBLXyYlIXnOIMPpm9lF3gS"
 token <- "530-2xav2FB0S8OHGC70W57qTYDQjW21eDVuuCVxRq1J"
 token_secret <- "xswf0HAe4V7GakSV1YAZrMSILofkKFi9"
