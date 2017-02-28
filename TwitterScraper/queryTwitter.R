@@ -1,9 +1,9 @@
 #CONSTANTS
 #########################################
-api_key <- "rDoIdBIUY3pvdWrXZVzW2h"
-api_secret <- "tkIoBnobnV97vmiy3PcneggxTZBLXyYlIXnOIMPpm9lF3gS"
-token <- "539470-2xav2FB0S8OHGC70W57qTYDQjW21eDVuuCVxRq1J"
-token_secret <- "xswgYF5XuzZRf0HAe4V7GakSV1YAZrMSILofkKFi9"
+api_key <- "rDoIIUY3pvdWrXZVzW2h"
+api_secret <- "tkmTyIiy3PcneggxTZBLXyYlIXnOIMPpm9lF3gS"
+token <- "530-2xav2FB0S8OHGC70W57qTYDQjW21eDVuuCVxRq1J"
+token_secret <- "xswf0HAe4V7GakSV1YAZrMSILofkKFi9"
 
 db_path <- "~/Documents/Senior/second_sem/cpsc482/Oscars/oscar-db4.sqlite"
 
@@ -16,11 +16,11 @@ directingCat <- list("Denis Villeneuve", "Mel Gibson", "Damien Chazelle",
 actorCat <- list("Casey Affleck", "Andrew Garfield", "Ryan Gosling", "Viggo Mortensen",
                     "Denzel Washington")
 actressCat <- list("Isabelle Huppert", "Ruth Negga", "Natalie Portman", "Emma Stone", "Meryl Streep")
-
+supactCat <- list("Mahershala Ali", "Jeff Bridges", "Lucas Hedges", "Dev Patel", "Michael Shannon")
 #categories <- list(bestPictureCat, directingCat, actorCat, actressCat)
 #categoriesStr <- list("Best Picture", "Directing", "Best Actor", "Best Actress")
-categories <- list(bestPictureCat)
-categoriesStr <- list("Best Picture")
+categories <- list(supactCat)
+categoriesStr <- list("Supporting Role")
 ##########################################
 queryTwitterPic <- function(best.2015){
   for (each in best.2015){
