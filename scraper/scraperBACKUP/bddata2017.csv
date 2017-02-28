@@ -1,0 +1,6 @@
+year,movie,director,wins,noms,%won,oscarwin,globewin
+2017,Arrival , Denis Villeneuve,0,1,0.0,yes,no
+2017,Hacksaw Ridge , Mel Gibson,0,2,0.0,no,no
+2017,La La Land , Damien Chazelle,2,2,100.0,no,yes
+2017,Manchester by the Sea , Kenneth Lonergan,0,3,0.0,no,no
+2017,Moonlight , Barry Jenkins,0,3,0.0,no,no
