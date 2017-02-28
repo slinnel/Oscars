@@ -1,6 +1,1 @@
-year,movie,actor,wins,noms,%won,oscarwin,globewin
-2017,Elle , Isabelle Huppert,1,3,33.33333333333333,yes,yes
-2017,Loving , Ruth Negga,0,3,0.0,no,no
-2017,Jackie , Natalie Portman,1,5,20.0,no,no
-2017,La La Land , Emma Stone,2,3,66.66666666666666,no,no
-2017,Florence Foster Jenkins , Meryl Streep,0,2,0.0,no,no
+year,movie,director,wins,noms,%won,oscarwin,globewin
