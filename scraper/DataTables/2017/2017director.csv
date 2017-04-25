@@ -1,0 +1,2 @@
+year,movie,director,wins,noms,%won,oscarwin,globewin,% chance to win Oscar
+2017,Arrival, Denis Villeneuve,0,1,0,yes,no,0.08548052017,Hacksaw Ridge, Mel Gibson,0,2,0,no,no,0.030139092017,La La Land, Damien Chazelle,2,2,100,no,yes,0.67013372017,Manchester by the Sea, Kenneth Lonergan,0,3,0,no,no,0.010225942017,Moonlight, Barry Jenkins,0,3,0,no,no,0.01022594
