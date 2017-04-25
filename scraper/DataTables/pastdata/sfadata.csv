@@ -1,0 +1,106 @@
+year,movie,actor,wins,noms,%won,oscarwin,globewin
+1996,Mighty Aphrodite , Mira Sorvino,3,5,60.0,yes,yes
+1996,Nixon , Joan Allen,0,2,0.0,no,no
+1996,Apollo 13 , Kathleen Quinlan,0,2,0.0,no,no
+1996,Georgia , Mare Winningham,1,3,33.33333333333333,no,no
+1996,Sense and Sensibility , Kate Winslet,2,4,50.0,no,no
+1997,The English Patient , Juliette Binoche,2,4,50.0,yes,no
+1997,The Crucible , Joan Allen,1,3,33.33333333333333,no,no
+1997,The Mirror Has Two Faces , Lauren Bacall,2,4,50.0,no,yes
+1997,The Portrait of a Lady , Barbara Hershey,0,2,0.0,no,no
+1997,Secrets & Lies , Marianne Jean-Baptiste,0,3,0.0,no,no
+1998,L.A. Confidential , Kim Basinger,3,3,100.0,yes,yes
+1998,In & Out , Joan Cusack,1,3,33.33333333333333,no,no
+1998,Good Will Hunting , Minnie Driver,0,1,0.0,no,no
+1998,Boogie Nights , Julianne Moore,0,2,0.0,no,no
+1998,Titanic , Gloria Stuart,0,2,0.0,no,no
+1999,Shakespeare in Love , Judi Dench,2,4,50.0,yes,no
+1999,Primary Colors , Kathy Bates,1,4,25.0,no,no
+1999,Little Voice , Brenda Blethyn,0,4,0.0,no,no
+1999,Hilary and Jackie , Rachel Griffiths,0,2,0.0,no,no
+1999,Gods and Monsters , Lynn Redgrave,2,5,40.0,no,yes
+2000,"Girl, Interrupted ", Angelina Jolie,4,4,100.0,yes,yes
+2000,The Sixth Sense , Toni Collette,0,1,0.0,no,no
+2000,Being John Malkovich , Catherine Keener,0,3,0.0,no,no
+2000,Sweet and Lowdown , Samantha Morton,0,2,0.0,no,no
+2000,Boys Don't Cry ,Chloe Sevigny,1,4,25.0,no,no
+2001,Pollock , Marcia Gay Harden,1,2,50.0,yes,no
+2001,Almost Famous , Kate Hudson,1,3,33.33333333333333,no,yes
+2001,Almost Famous , Frances McDormand,0,4,0.0,no,no
+2001,Billy Elliot , Julie Walters,1,4,25.0,no,no
+2001,Chocolat , Judi Dench,1,4,25.0,no,no
+2002,A Beautiful Mind , Jennifer Connelly,4,4,100.0,yes,yes
+2002,Gosford Park , Helen Mirren,1,4,25.0,no,no
+2002,Gosford Park , Maggie Smith,0,3,0.0,no,no
+2002,In the Bedroom , Marisa Tomei,0,3,0.0,no,no
+2002,Iris , Kate Winslet,0,3,0.0,no,no
+2003,Chicago , Catherine Zeta-Jones,4,4,100.0,yes,no
+2003,About Schmidt , Kathy Bates,0,4,0.0,no,no
+2003,Adaptation. , Meryl Streep,1,4,25.0,no,yes
+2003,Chicago , Queen Latifah,0,4,0.0,no,no
+2003,The Hours , Julianne Moore,0,3,0.0,no,no
+2004,Cold Mountain ,Renee Zellweger,5,5,100.0,yes,yes
+2004,House of Sand and Fog , Shohreh Aghdashloo,1,2,50.0,no,no
+2004,Mystic River , Marcia Gay Harden,0,2,0.0,no,no
+2004,Pieces of April , Patricia Clarkson,0,5,0.0,no,no
+2004,Thirteen , Holly Hunter,0,5,0.0,no,no
+2005,The Aviator , Cate Blanchett,3,5,60.0,yes,no
+2005,Closer , Natalie Portman,1,4,25.0,no,yes
+2005,Hotel Rwanda , Sophie Okonedo,0,2,0.0,no,no
+2005,Kinsey , Laura Linney,0,4,0.0,no,no
+2005,Sideways , Virginia Madsen,2,5,40.0,no,no
+2006,The Constant Gardener , Rachel Weisz,3,3,100.0,yes,yes
+2006,Brokeback Mountain , Michelle Williams,1,6,16.666666666666664,no,no
+2006,Capote , Catherine Keener,0,3,0.0,no,no
+2006,Junebug , Amy Adams,1,3,33.33333333333333,no,no
+2006,North Country , Frances McDormand,0,4,0.0,no,no
+2007,Dreamgirls , Jennifer Hudson,5,5,100.0,yes,yes
+2007,Babel , Adriana Barraza,0,4,0.0,no,no
+2007,Babel , Rinko Kikuchi,0,4,0.0,no,no
+2007,Little Miss Sunshine , Abigail Breslin,0,3,0.0,no,no
+2007,Notes on a Scandal , Cate Blanchett,0,4,0.0,no,no
+2008,Michael Clayton , Tilda Swinton,2,5,40.0,yes,no
+2008,American Gangster , Ruby Dee,1,2,50.0,no,no
+2008,Atonement , Saoirse Ronan,0,3,0.0,no,no
+2008,Gone Baby Gone , Amy Ryan,1,4,25.0,no,no
+2008,I'm Not There. , Cate Blanchett,2,6,33.33333333333333,no,yes
+2009,Vicky Cristina Barcelona ,Penelope Cruz,3,6,50.0,yes,no
+2009,The Curious Case of Benjamin Button , Taraji P. Henson,0,3,0.0,no,no
+2009,Doubt , Amy Adams,0,4,0.0,no,no
+2009,Doubt , Viola Davis,0,4,0.0,no,no
+2009,The Wrestler , Marisa Tomei,0,4,0.0,no,no
+2010,Precious , Mo'Nique,6,6,100.0,yes,yes
+2010,Crazy Heart , Maggie Gyllenhaal,0,1,0.0,no,no
+2010,Nine ,Penelope Cruz,0,3,0.0,no,no
+2010,Up in the Air , Vera Farmiga,0,5,0.0,no,no
+2010,Up in the Air , Anna Kendrick,0,5,0.0,no,no
+2011,The Fighter , Melissa Leo,4,4,100.0,yes,yes
+2011,The Fighter , Amy Adams,0,5,0.0,no,no
+2011,The King's Speech , Helena Bonham Carter,1,5,20.0,no,no
+2011,True Grit , Hailee Steinfeld,0,3,0.0,no,no
+2011,Animal Kingdom , Jacki Weaver,0,3,0.0,no,no
+2012,The Help , Octavia Spencer,5,5,100.0,yes,yes
+2012,The Artist ,Berenice Bejo,0,4,0.0,no,no
+2012,The Help , Jessica Chastain,0,5,0.0,no,no
+2012,Bridesmaids , Melissa McCarthy,0,4,0.0,no,no
+2012,Albert Nobbs , Janet McTeer,0,4,0.0,no,no
+2013,Les Mis, Anne Hathaway,5,5,100.0,yes,yes
+2013,The Master , Amy Adams,0,4,0.0,no,no
+2013,Lincoln , Sally Field,0,5,0.0,no,no
+2013,The Sessions , Helen Hunt,1,6,16.666666666666664,no,no
+2013,Silver Linings Playbook , Jacki Weaver,0,1,0.0,no,no
+2014,12 Years a Slave , Lupita Nyong'o,4,6,66.66666666666666,yes,no
+2014,Blue Jasmine , Sally Hawkins,0,4,0.0,no,no
+2014,American Hustle , Jennifer Lawrence,2,5,40.0,no,yes
+2014,August: Osage County , Julia Roberts,0,5,0.0,no,no
+2014,Nebraska , June Squibb,0,5,0.0,no,no
+2015,Boyhood , Patricia Arquette,6,6,100.0,yes,yes
+2015,Wild , Laura Dern,0,1,0.0,no,no
+2015,The Imitation Game , Keira Knightley,0,5,0.0,no,no
+2015,Birdman or (The Unexpected Virtue of Ignorance) , Emma Stone,0,6,0.0,no,no
+2015,Into the Woods , Meryl Streep,0,4,0.0,no,no
+2016,The Danish Girl , Alicia Vikander,3,3,100.0,yes,no
+2016,The Hateful Eight , Jennifer Jason Leigh,0,4,0.0,no,no
+2016,Steve Jobs , Kate Winslet,2,5,40.0,no,yes
+2016,Spotlight , Rachel McAdams,0,3,0.0,no,no
+2016,Carol , Rooney Mara,0,4,0.0,no,no

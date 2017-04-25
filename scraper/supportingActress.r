@@ -6,9 +6,9 @@ rm(list = ls())
 
 ##Begin Best Actress Analysis
 ##Read in History Data
-BestActressHistory = read.csv("/Users/SteverMac/Oscars/scraper/DataTables/pastdata/actressdata.csv")
+BestActressHistory = read.csv("/Users/SteverMac/Oscars/scraper/DataTables/pastdata/sfadata.csv")
 ##read in the nominees for 2017
-BestActress2017 <- read.csv("/Users/SteverMac/Oscars/scraper/DataTables/2017/2017actress.csv")
+BestActress2017 <- read.csv("/Users/SteverMac/Oscars/scraper/DataTables/2017/2017supportactress.csv")
 
 #generic linear model
 BestActress.win1 = glm(oscarwin ~noms + wins + globewin, family=binomial, data=BestActressHistory)
@@ -28,3 +28,9 @@ BestActress3.predict
 BestActress4.predict
 
 BestActress2017
+
+9.999908e-01
+3.108233e-06 
+3.108233e-06 
+2.527141e-04 
+3.108233e-06

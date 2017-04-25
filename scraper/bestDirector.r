@@ -11,7 +11,18 @@ BestDirectorHistory = read.csv("/Users/SteverMac/Oscars/scraper/DataTables/pastd
 BestDirector2017 <- read.csv("/Users/SteverMac/Oscars/scraper/DataTables/2017/2017director.csv")
 
 #generic linear model
-BestDirector.win = glm(oscarwin ~noms + wins + globewin, family=binomial, data=BestDirectorHistory)
+BestDirector.win1 = glm(oscarwin ~noms + wins + globewin, family=binomial, data=BestDirectorHistory)
+BestDirector.win2 = glm(oscarwin ~noms + wins, family=binomial, data=BestDirectorHistory)
+BestDirector.win3 = glm(oscarwin ~noms + globewin, family=binomial, data=BestDirectorHistory)
+BestDirector.win4 = glm(oscarwin ~wins + globewin, family=binomial, data=BestDirectorHistory)
+
 #predict on each nominee from 2017
-BestDirector.predict<-predict(BestDirector.win, BestDirector2017, type="response")
-BestDirector.predict
+BestDirector.predict1<-predict(BestDirector.win1, BestDirector2017, type="response")
+BestDirector.predict2<-predict(BestDirector.win2, BestDirector2017, type="response")
+BestDirector.predict3<-predict(BestDirector.win3, BestDirector2017, type="response")
+BestDirector.predict4<-predict(BestDirector.win4, BestDirector2017, type="response")
+
+BestDirector.predict1
+BestDirector.predict2
+BestDirector.predict3
+BestDirector.predict4

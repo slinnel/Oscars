@@ -1,0 +1,6 @@
+year,movie,actor,wins,noms,%won,oscarwin,globewin,chance
+2017,Fences , Viola Davis,4,4,100,yes,yes,1.00E+00
+2017,Moonlight , Naomie Harris,0,4,0,no,no,3.11E-06
+2017,Lion , Nicole Kidman,0,4,0,no,no,3.11E-06
+2017,Hidden Figures , Octavia Spencer,0,2,0,no,no,2.53E-04
+2017,Manchester by the Sea , Michelle Williams,0,4,0,no,no,3.11E-06
